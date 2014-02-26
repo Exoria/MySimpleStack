@@ -6,4 +6,5 @@ public interface TreeNode {
 
 	public ArrayList<TreeNode> getChildren();
 	public TreeNode getParent();
+	public TreeNode getFirstChildren();
 }
